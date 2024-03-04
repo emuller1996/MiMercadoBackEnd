@@ -1,0 +1,12 @@
+App\Entity\Mercado:
+  attributes:
+    id:
+      groups: ["mercados"]
+    nombre:
+      groups: ["mercados","mercado"]
+    valor:
+      groups: ["mercados","mercado"]
+    estado:
+      groups: ["mercados","mercado"]
+    items:
+      groups: ["mercados"]

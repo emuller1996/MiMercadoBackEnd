@@ -1,0 +1,11 @@
+App\Entity\ItemMercado:
+  attributes:
+    id:
+      groups: ["itemmercado"]
+    cantidad:
+      groups: ["itemmercado"]
+    unidad:
+      groups: ["itemmercado"]
+    item:
+      groups: ["itemmercado"]
+    

@@ -1,0 +1,6 @@
+App\Entity\Item:
+  attributes:
+    id:
+      groups: ["list_item"]
+    nombre:
+      groups: ["list_item"]

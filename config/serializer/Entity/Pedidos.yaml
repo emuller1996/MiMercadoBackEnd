@@ -1,0 +1,12 @@
+App\Entity\Pedidos:
+  attributes:
+    id:
+      groups: ["list_pedidos"]
+    fecha:
+      groups: ["list_pedidos"]
+    estado:
+      groups: ["list_pedidos"]
+    valor:
+      groups: ["list_pedidos"]
+    mercados:
+      groups: ["list_pedidos"]

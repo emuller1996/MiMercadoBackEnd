@@ -17,6 +17,13 @@ framework:
     php_errors:
         log: true
 
+    serializer:
+        enabled: true
+        mapping: 
+            paths: ['%kernel.project_dir%/config/serializer']
+        default_context:
+            enable_max_depth: true
+
 when@test:
     framework:
         test: true
